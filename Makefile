@@ -1,7 +1,7 @@
 OUT_DIR=output
 IN_DIR=markdown
 STYLES_DIR=templates
-STYLE=jb2resume
+STYLE=jb3resume
 
 all: pdf tex
 
