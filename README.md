@@ -31,6 +31,14 @@ pandoc perl-programmer-john-bokma-resume.md -f markdown+yaml_metadata_block \
   -o perl-programmer-john-bokma-resume.pdf
 ~~~
 
+The MAKEFILE will use a specified template in the `templates/` folder. The template filename (excluding `.latex`) should be inputted in line 4 of the MAKEFILE.
+
+For example, to use the `templates/jb2resume.latex` template, line 4 of the MAKEFILE should be:
+
+~~~
+STYLE=jb2resume
+~~~
+
 ## Using Docker
 
 Create the Docker container image using:
